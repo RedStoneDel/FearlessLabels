@@ -4,13 +4,9 @@ import Hero1 from './Hero1';
 
 const Content = () => {
     return (
-        <div>
-            <div className="overflow-x-hidden bg-black sm:h-full h-96 flex flex-col justify-center items-center">
-                <Hero1></Hero1>
-            </div>
-            <div className="overflow-x-hidden bg-black sm:h-full h-96 flex flex-col justify-center items-center">
-                <Hero2></Hero2>
-            </div>
+        <div className="overflow-x-hidden bg-black xl:h-full h-screen flex flex-col justify-center items-center">
+            <Hero1></Hero1>
+            <Hero2 className="m-auto"></Hero2>
         </div>
     );
 };
