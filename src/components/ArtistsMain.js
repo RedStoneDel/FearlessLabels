@@ -3,8 +3,8 @@ import { ReactComponent as ArtistsContent } from '../images/ArtistsPage.svg';
 
 const ArtistsMain = () => {
     return (
-        <div className="overflow-x-hidden bg-black h-screen flex flex-col justify-center items-center">
-            <ArtistsContent className="h-full"></ArtistsContent>
+        <div className="overflow-x-hidden bg-black xl:h-full h-screen flex flex-col justify-center items-center">
+            <ArtistsContent></ArtistsContent>
         </div>
     );
 };
